@@ -7,10 +7,11 @@
     "build": "next build",
     "start": "next start",
     "lint": "next lint",
-    "storybook": "storybook dev -p 6006",
+    "storybook": "storybook dev -s ../public -p 6006",
     "build-storybook": "storybook build"
   },
   "dependencies": {
+    "@storybook/addon-docs": "^7.0.22",
     "aos": "^2.3.4",
     "classnames": "^2.3.2",
     "next": "^12.3.4",
