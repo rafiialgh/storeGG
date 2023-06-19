@@ -12,5 +12,6 @@ const Template: StoryFn<GameItemProps> = (args) => <GameItem {...args}/>;
 export const Default = Template.bind({});
 Default.args = {
   title: 'Super Mechs',
-  category: 'Mobile'
+  category: 'Mobile',
+  thumbnail: 'Thumbnail-1'
 };
